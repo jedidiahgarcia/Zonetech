@@ -42,7 +42,9 @@
 		#home {
 			padding-top: 100px;
 		}
-
+		.dropdown-menu{
+			background-color: gray;
+		}
 
 	</style>
 
@@ -69,11 +71,19 @@
 
 					<div class="collapse navbar-collapse navbar-right">
 						<ul class="nav navbar-nav">
-							<li class=""><a href="#lock"><span style="color: white;">Lock</span></a></li>
-							<li><a href="#alarm"><span style="color: white;">Alarm</span></a></li>
-							<li class=""><a href="#video"><span style="color: white;">Video</span></a></li>
-							<li><a href="#smarthouse"><span style="color: white;">Smarthouse</span></a></li>
-							<li class=""><a href="#printers-accesories"><span style="color: white;">Printers and Accessories</span></a></li>
+								<li class="dropdown">
+       								<a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
+							        <span class="caret"></span></a>
+							        <ul class="dropdown-menu">
+							          <li class=""><a href="#lock"><span style="color: yellow;">Lock</span></a></li>
+											<li><a href="#alarm"><span style="color: yellow;">Alarm</span></a></li>
+											<li class=""><a href="#video"><span style="color: yellow;">Video</span></a></li>
+											<li><a href="#smarthouse"><span style="color: yellow;">Smarthouse</span></a></li>
+											<li class=""><a href="#printers-accesories"><span style="color: yellow;">Printers and Accessories</span></a></li>
+							        </ul>
+							    </li>
+								
+							
 							<li class=""><a href="#about-us"><span style="color: white;">about us</span></a></li>
 							<li><a href="#services"><span style="color: white;">services</span></a></li>
 							<li><a href="#contact"><span style="color: white;">contact</span></a></li>
