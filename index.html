@@ -29,6 +29,7 @@
 
 		}
 
+
 		section {
 			padding-top: 50px;
 		}
@@ -38,7 +39,7 @@
 		}
 
 		#logo {
-			width: 30px;
+			width: 30px;rd
 			height: 30px;
 			padding-top: 0;
 		}
@@ -46,17 +47,38 @@
 		#home {
 			padding-top: 100px;
 		}
-
+		.dropdown-menu{
+			background-color: black;
+		}
 		@font-face {
 			font-family: Bebas neue;
 			src: url(static/fonts/BebasNeue.otf);
 		}
+		.dropdown-menu a{
+			font-size: 25px;
+		}
+		a.dropdown-toggle{
+			color: white;
+			/*background-color: red;*/
+		}
+		/*.dropdown:active {
+			background-color: red;
+		}
 
+<<<<<<< HEAD
 		.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 		    background-color: #D59A01;
 		    color: #FFC0CB;
 		}
 
+=======
+		.open {
+			background-color: red !important;
+		}*/
+		.navbar-default .navbar-nav >li >a.hover, .navbar-default .navbar-nav > li > a.focus{
+			background-color: gray;
+		}
+>>>>>>> 605121dfc531ecefe467630538322bbd103a29e1
 	</style>
 
 </head>
@@ -82,12 +104,23 @@
 
 					<div class="collapse navbar-collapse navbar-right">
 						<ul class="nav navbar-nav">
+								<li class="dropdown">
+       								<a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:white; ">Products
+							        <span class="caret"></span></a>
+							        <ul class="dropdown-menu">
 
-							<li class=""><a href="#lock"><span style="color: white;">Lock</span></a></li>
+							          <li class=""><a href="#lock"><span style="color: yellow;">Lock</span></a></li>
+											<li><a href="#alarm"><span style="color: yellow;">Alarm</span></a></li>
+											<li class=""><a href="#video"><span style="color: yellow;">Video</span></a></li>
+											<li><a href="#smarthouse"><span style="color: yellow;">Smarthouse</span></a></li>
+											<li class=""><a href="#printers-accesories"><span style="color: yellow;">Printers and Accessories</span></a></li>
+							        </ul>
+							    </li>
+							<!-- <li class=""><a href="#lock"><span style="color: white;">Lock</span></a></li>
 							<li><a href="#alarm"><span style="color: white;">Alarm</span></a></li>
 							<li class=""><a href="#video"><span style="color: white;">Video</span></a></li>
 							<li><a href="#smarthouse"><span style="color: white;">Smarthouse</span></a></li>
-							<li class=""><a href="#printers-accesories"><span style="color: white;">Printers and Accessories</span></a></li>
+							<li class=""><a href="#printers-accesories"><span style="color: white;">Printers and Accessories</span></a></li> -->
 							<li class=""><a href="#about-us"><span style="color: white;">about us</span></a></li>
 							<li><a href="#services"><span style="color: white;">services</span></a></li>
 							<li><a href="#contact"><span style="color: white;">contact</span></a></li>
